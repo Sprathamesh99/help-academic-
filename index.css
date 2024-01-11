@@ -1,0 +1,583 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 1435px;
+    height: 1023px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.div {
+    position: relative;
+    width: 349px;
+    height: 1024px;
+    margin: 0 0 0 -5px;
+    background: #ffffff;
+    border: 1px solid #002083;
+    z-index: 12;
+}
+
+.course-1 {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: -2px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.flex-row {
+    position: absolute;
+    width: 1369px;
+    height: 1024px;
+    top: -1px;
+    left: 2px;
+    z-index: 30;
+}
+
+.rectangle {
+    position: absolute;
+    width: 349px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    font-size: 0px;
+    background: #002083;
+    z-index: 13;
+}
+
+.techno-arv {
+    display: block;
+    position: relative;
+    height: 53px;
+    margin: 32px 0 0 39px;
+    color: #ffffff;
+    font-family: Impact, var(--default-font-family);
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 53px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 29;
+}
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 149px;
+    left: 121px;
+    color: #f5f5f5;
+    font-family: Inder, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+}
+
+.home-icon-silhouette {
+    position: absolute;
+    width: 31px;
+    height: 30px;
+    top: 149px;
+    left: 56px;
+    background: url(./assets/images/e11e833b2490308da26852022c85ccdc238ab760.png) no-repeat center;
+    background-size: cover;
+    z-index: 15;
+}
+
+.dashboard {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 243px;
+    left: 121px;
+    color: #f5f5f5;
+    font-family: Inder, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+}
+
+.dashboard-2 {
+    position: absolute;
+    width: 31px;
+    height: 33px;
+    top: 246px;
+    left: 57px;
+    background: url(./assets/images/51c58933782fb7d6eb6e91ea554d2b75f974f9b7.png) no-repeat center;
+    background-size: cover;
+    z-index: 14;
+}
+
+.admin {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 339px;
+    left: 121px;
+    color: #f5f5f5;
+    font-family: Inder, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+}
+
+.user {
+    position: absolute;
+    width: 31px;
+    height: 31.17px;
+    top: 342px;
+    left: 52px;
+    background: url(./assets/images/15fb7b00423d6f6ed5abe6b3b7f9c69b85aa28eb.png) no-repeat center;
+    background-size: cover;
+    z-index: 24;
+}
+
+.exam {
+    position: absolute;
+    width: 31px;
+    height: 39.9px;
+    top: 433px;
+    left: 51px;
+    background: url(./assets/images/daa52a75d45da776e712b42c8e7be5e970091092.png) no-repeat center;
+    background-size: cover;
+    z-index: 23;
+}
+
+.admission {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 435px;
+    left: 115px;
+    color: #f5f5f5;
+    font-family: Inder, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+}
+
+.exam-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 528px;
+    left: 116px;
+    color: #f5f5f5;
+    font-family: Inder, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+}
+
+.paper {
+    position: absolute;
+    width: 31px;
+    height: 36px;
+    top: 531px;
+    left: 56px;
+    background: url(./assets/images/cc924b560c8d2920cd54789f72b70efd1feea35e.png) no-repeat center;
+    background-size: cover;
+    z-index: 25;
+}
+
+.academic {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 621px;
+    left: 121px;
+    color: #f5f5f5;
+    font-family: Inder, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+}
+
+.mortarboard {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 625px;
+    left: 53px;
+    background: url(./assets/images/64fed81583dde3c22d0704fec88f58864a549217.png) no-repeat center;
+    background-size: cover;
+    z-index: 27;
+}
+
+.setting {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 705px;
+    left: 124px;
+    color: #f5f5f5;
+    font-family: Inder, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 22;
+}
+
+.setting-4 {
+    position: absolute;
+    width: 31px;
+    height: 33.14px;
+    top: 708px;
+    left: 56px;
+    background: url(./assets/images/c8904b016c0e977bc365c02ed2eb730e88cf8a0e.png) no-repeat center;
+    background-size: cover;
+    z-index: 26;
+}
+
+.rectangle-5 {
+    position: absolute;
+    width: 25px;
+    height: 1px;
+    top: 0;
+    left: 342px;
+    background: #d9d9d9;
+    z-index: 28;
+}
+
+.rectangle-6 {
+    position: absolute;
+    width: 547px;
+    height: 52px;
+    top: 70px;
+    left: 822px;
+    background: #f5f5f5;
+    border: 2px solid #002083;
+    z-index: 30;
+    border-radius: 52px;
+}
+
+.rectangle-7 {
+    position: absolute;
+    width: 148px;
+    height: 52px;
+    top: 0;
+    left: 399px;
+    background: #002083;
+    border: 2px solid #002083;
+    z-index: 32;
+    border-radius: 52px;
+}
+
+.search {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 4px;
+    left: 27px;
+    color: #f5f5f5;
+    font-family: Inder, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 33;
+}
+
+.magnifying-glass {
+    position: absolute;
+    width: 30.769px;
+    height: 30px;
+    top: 11px;
+    left: 22px;
+    background: url(./assets/images/2f53176ab2fc71dad5a69fc232713c25c12152b2.png) no-repeat center;
+    background-size: cover;
+    z-index: 31;
+}
+
+.admission-8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 228px;
+    left: 437px;
+    color: #002083;
+    font-family: Inder, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.admission-report {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 228px;
+    left: 843px;
+    color: #002083;
+    font-family: Inder, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.flex-row-f {
+    position: absolute;
+    width: 822px;
+    height: 48px;
+    top: 294px;
+    left: 458px;
+    z-index: 4;
+}
+
+.admission-form-sale {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 0;
+    left: 0;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.admission-form-sale-9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 16px;
+    left: 456px;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+}
+
+.flex-row-c {
+    position: absolute;
+    width: 869px;
+    height: 48px;
+    top: 345px;
+    left: 458px;
+    z-index: 6;
+}
+
+.admission-form-receive {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 0;
+    left: 0;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+.admission-form-received {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 16px;
+    left: 456px;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+}
+
+.flex-row-bb {
+    position: absolute;
+    width: 822px;
+    height: 49px;
+    top: 395px;
+    left: 458px;
+    z-index: 8;
+}
+
+.admission-entrance {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 33px;
+    top: 0;
+    left: 0;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+}
+
+.admission-merit-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 33px;
+    top: 16px;
+    left: 456px;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+}
+
+.flex-row-ab {
+    position: absolute;
+    width: 1109px;
+    height: 48px;
+    top: 446px;
+    left: 458px;
+    z-index: 10;
+}
+
+.admission-confirmation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 0;
+    left: 0;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+}
+
+.student-admission-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 16px;
+    left: 456px;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.admission-cancellation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 497px;
+    left: 458px;
+    color: #3c3c3c;
+    font-family: Inder, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+}
